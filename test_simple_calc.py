@@ -17,8 +17,8 @@ class Calctest(unittest.TestCase):
 # IMPORTANT - we MUST use test word in our functions so python interpreter
 # knows what we are testing
 # Command shows if tests pass --------> python -m pytest <----------------
-# Command to show details of tests--------> python -m pytest -v <--------------
-
+# Command to show details of tests --------> python -m pytest -v <--------------
+# Command to show which tests passed -------> python -m unittest discover -v <----------
     def test_add(self):
         self.assertEqual(self.calc.add(4, 2), 6) # Bool
         # This is what we are asking python to test for us
