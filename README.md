@@ -31,7 +31,12 @@ production
 pip install pytest
 # Unittest is already installed in python
 ```
-
+- How does `pytest` work??
+  - pytest looks for the files with `test_*.py` and
+  `*_test.py`  
+  - `python -m pytest -v` is for verbose flag - for more information
+  - We can use different condition with assertEqual
+  as per business need 
 ### Test File
 - First create the test class with the code shown
 below and then create your actual code to test
